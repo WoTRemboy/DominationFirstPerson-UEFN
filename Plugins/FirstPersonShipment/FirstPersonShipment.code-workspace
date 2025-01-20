@@ -1,0 +1,56 @@
+{
+    "folders": [
+        {
+            "name": "FirstPersonShipment",
+            "path": "C:/Users/User/Documents/Fortnite Projects/FirstPersonShipment/Plugins/FirstPersonShipment/Content"
+        },
+        {
+            "name": "FirstPersonShipment/Assets",
+            "path": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/FirstPersonShipment/FirstPersonShipment-Assets"
+        },
+        {
+            "name": "vproject - DO NOT MODIFY",
+            "path": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/FirstPersonShipment/vproject"
+        },
+        {
+            "name": "Verse",
+            "path": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/FirstPersonShipment/Verse"
+        },
+        {
+            "name": "UnrealEngine",
+            "path": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/FirstPersonShipment/UnrealEngine"
+        },
+        {
+            "name": "Fortnite",
+            "path": "C:/Users/User/AppData/Local/UnrealEditorFortnite/Saved/VerseProject/FirstPersonShipment/Fortnite"
+        }
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/*.uasset": true,
+            "**/*.umap": true,
+            "**/*.png": true,
+            "**/*.jpg": true,
+            "**/*.tga": true,
+            "_INT": true,
+            "**/*.vproject": true,
+            "__ExternalActors__": true,
+            "__ExternalObjects__": true
+        },
+        "files.autoSave": "onWindowChange",
+        "workbench.colorTheme": "Verse (Dark)",
+        "editor.bracketPairColorization.enabled": false,
+        "editor.acceptSuggestionOnEnter": "off"
+    },
+    "launch": {
+        "version": "0.2.0",
+        "configurations": [
+            {
+                "name": "Verse Debug",
+                "type": "verse",
+                "request": "attach",
+                "debugServer": 1961
+            }
+        ]
+    }
+}

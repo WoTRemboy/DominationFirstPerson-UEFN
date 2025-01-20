@@ -1,0 +1,45 @@
+{
+	"fileVersion": 15,
+	"versionSuffix": "",
+	"title": "FirstPersonShipment",
+	"description": "",
+	"keyArt": "",
+	"docsUrl": "",
+	"kind": "Island",
+	"compatibilityVersion": "33.20",
+	"requiredRedirectorStartingVersion": "33.11.38773622",
+	"editorPermissions": [],
+	"epicApp": "",
+	"sortPriority": 0,
+	"featureSet": "",
+	"plugins": [
+		{
+			"name": "FirstPersonShipment",
+			"bIsRoot": true,
+			"bIsPublic": false
+		}
+	],
+	"dataSets":
+	{
+		"matchmaking":
+		{
+			"maxPlayers": 8,
+			"maxTeamCount": 2,
+			"maxTeamSize": 8,
+			"maxSocialPartySize": 8,
+			"allowJoinInProgress": true,
+			"allowSquadFillOption": false,
+			"islandQueuePrivacy": "Unrestricted",
+			"version": 1
+		}
+	},
+	"bindings":
+	{
+		"projectId": "1adfbf2d-47ea-8e4d-97ed-0cbac0b4cb9f",
+		"projectVersePath": "/hbrats@fortnite.com/FirstPersonShipment",
+		"modules":
+		{
+			"FirstPersonShipment": "8ef3a5b2-4d3a-5d26-2cff-d6ab37bedc89"
+		}
+	}
+}
