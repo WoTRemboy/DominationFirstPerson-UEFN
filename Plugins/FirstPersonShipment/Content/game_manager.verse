@@ -8,6 +8,7 @@ using { /UnrealEngine.com/Temporary/Diagnostics }
 game_manager := class(creative_device):
     @editable   PlayerStatsManager : player_stats_manager = player_stats_manager{}
     @editable   RankManager: rank_manager = rank_manager{}
+    @editable   UIManager : user_interface_manager = user_interface_manager{}
 
     @editable   PlayerSpawners : []player_spawner_device = array{}
 
@@ -16,6 +17,7 @@ game_manager := class(creative_device):
     OnBegin<override>()<suspends> : void =
         set Players = GetPlayspace().GetPlayers()
         PlayerStatsManager.Init(Players)
+        UIManager.Init(Players)
         RankManager.Init(Players)
         for ( PlayerSpawner : PlayerSpawners):
             PlayerSpawner.SpawnedEvent.Subscribe(OnPlayerSpawn)
@@ -29,6 +31,7 @@ game_manager := class(creative_device):
                 if ( not Players.Find[Player]):
                     set Players += array{Player}
                     PlayerStatsManager.InitializePlayerStats(Player)
+                    UIManager.InitializePlayerUI(Player)
                     RankManager.InitializePlayerRank(Player)
 
             loop:
